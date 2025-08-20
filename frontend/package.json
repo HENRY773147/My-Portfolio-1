@@ -8,10 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist --dotfiles",
-    "deploy:clean": "gh-pages -d dist --remove \"**/*\" --add"
+    "preview": "vite preview"
+   
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
